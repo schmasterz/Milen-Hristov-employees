@@ -1,6 +1,6 @@
 # Pair of employees
 
-### An application that identifies the pair of employees who have worked together on common projects.
+### An application that identifies the pair of employees who have worked together on common projects for the longest period of time.
 
 ## Requirements
 - PHP 8.3 or higher
