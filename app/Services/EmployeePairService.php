@@ -63,7 +63,7 @@ class EmployeePairService
      * @param string $end2
      * @return int
      */
-    private function calculateDateOverlap($start1, $end1, $start2, $end2): int
+    private function calculateDateOverlap(string $start1, string $end1, string $start2, string $end2): int
     {
         $start = max(strtotime($start1), strtotime($start2));
         $end = min(strtotime($end1), strtotime($end2));
